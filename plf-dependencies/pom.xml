@@ -746,6 +746,12 @@
       <groupId>org.exoplatform.wiki</groupId>
       <artifactId>wiki-webapp</artifactId>
       <type>war</type>
+      <exclusions>
+        <exclusion>
+          <artifactId>commons-logging</artifactId>
+          <groupId>commons-logging</groupId>
+        </exclusion>
+      </exclusions>      
     </dependency>
     <dependency>
       <groupId>org.exoplatform.wiki</groupId>
